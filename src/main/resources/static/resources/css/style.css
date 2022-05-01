@@ -8,8 +8,8 @@ header {
 }
 
 input.fieldError {
-    border-color:rgb(94, 255, 0) !important;
-    box-shadow:0 0 10px rgb(30, 255, 0) !important;
+    border-color:red !important;
+    box-shadow:0 0 10px red !important;
 }
 
 img.thumbnail {
