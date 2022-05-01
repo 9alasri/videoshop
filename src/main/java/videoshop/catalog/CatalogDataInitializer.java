@@ -66,6 +66,7 @@ class CatalogDataInitializer implements DataInitializer {
 		videoCatalog.save(new Disc("Back to the Future", "bttf", Money.of(9.99, EURO), "Sci-Fi", DiscType.DVD));
 		videoCatalog.save(new Disc("Fido", "fido", Money.of(9.99, EURO), "Comedy/Drama/Horror", DiscType.DVD));
 		videoCatalog.save(new Disc("Super Fuzz", "sf", Money.of(9.99, EURO), "Action/Sci-Fi/Comedy", DiscType.DVD));
+		videoCatalog.save(new Disc("El Ghazala Rayea", "Test", Money.of(99.99, EURO), "Action/Sci-Fi/Comedy", DiscType.DVD));
 		videoCatalog.save(new Disc("Armour of God II: Operation Condor", "aog2oc", Money.of(14.99, EURO),
 				"Action/Adventure/Comedy", DiscType.DVD));
 		videoCatalog.save(new Disc("Persepolis", "pers", Money.of(14.99, EURO), "Animation/Biography/Drama", DiscType.DVD));
