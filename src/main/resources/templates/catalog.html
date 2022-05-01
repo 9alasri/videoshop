@@ -19,11 +19,12 @@
                 <div class="image">
                     <a th:href="@{/disc/{id}(id=${disc.id})}">
                         <img class="thumbnail" th:src="@{/resources/img/cover/{image}.jpg(image=${disc.image})}"
-                             src="../static/resources/img/cover/lac.jpg"/>
+                             src="../static/resources/img/cover/Test.jpg"/>
+                             
                     </a>
                 </div>
                 <div class="content">
-                    <div class="description" th:text="${{disc.price}}">9.99 €</div>
+                    <div class="description" th:text="${{disc.price}}">900.99 €</div>
                 </div>
                 <div class="extra content" th:text="${disc.genre}"> Action</div>
             </div>
